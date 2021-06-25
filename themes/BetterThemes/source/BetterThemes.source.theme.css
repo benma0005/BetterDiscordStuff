@@ -1,0 +1,131 @@
+.theme-dark, .theme-light {
+    --info-positive-background: hsla(139,calc(var(--saturation-factor, 1)*47.3%),43.9%,0.1);
+    --info-positive-foreground: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --info-warning-background: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --info-warning-foreground: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --info-danger-background: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
+    --info-danger-foreground: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --status-positive-background: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --status-positive-text: #fff;
+    --status-warning-background: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --status-danger-background: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --status-danger-text: #fff;
+    --focus-primary: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+}
+
+.theme-dark {
+    --brand-experiment: hsl(235, 64%, 48%);
+    --header-primary: #fff;
+    --header-secondary: hsl(216, 4%, 64%);
+    --text-normal: hsl(210, 3%, 77%);
+    --text-muted: hsl(218, 5%, 37%);
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),37.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),42.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),48.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),44.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),49.4%);
+    --interactive-normal: hsl(216, 4%, 64%);
+    --interactive-hover: hsl(210, 3%, 77%);
+    --interactive-active: #fff;
+    --interactive-muted: hsl(220, 8%, 23%);
+    --background-primary: hsl(220, 8%, 13%);
+    --background-secondary: hsl(220, 8%, 8%);
+    --background-secondary-alt: hsl(220, 8%, 6%);
+    --background-tertiary: hsl(220, 8%, 3%);
+    --background-accent: hsl(220, 8%, 23%);
+    --background-floating: hsl(220, 8%, 1%);
+    --background-mobile-primary: hsl(220, 8%, 13%);
+    --background-mobile-secondary: hsl(220, 8%, 8%);
+    --background-modifier-hover: rgba(56,60,66,0.16);
+    --background-modifier-active: rgba(56,60,66,0.24);
+    --background-modifier-selected: rgba(56,60,66,0.32);
+    --background-modifier-accent: hsla(0,0%,90%,0.06);
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),37.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),37.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+    --scrollbar-thin-thumb: hsl(220, 8%, 3%);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: hsl(220, 8%, 3%);
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),10%);
+    --scrollbar-auto-scrollbar-color-thumb: hsl(220, 8%, 3%);
+    --scrollbar-auto-scrollbar-color-track: hsl(220, 8%, 8%);
+    --elevation-stroke: 0 0 0 1px rgba(0,0,1,0.15);
+    --elevation-low: 0 1px 0 rgba(0,0,1,0.2),0 1.5px 0 rgba(2,2,3,0.05),0 2px 0 rgba(0,0,1,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*57.9%),67.6%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),67.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),44.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),44.1%,0.08);
+    --background-message-hover: rgba(0,0,1,0.07);
+    --channels-default: hsl(213, 4%, 47%);
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: hsl(223, 7%, 17%);
+    --activity-card-background: hsl(220, 8%, 3%);
+    --textbox-markdown-syntax: hsl(213, 4%, 47%);
+    --deprecated-card-bg: rgba(9,10,11,0.6);
+    --deprecated-card-editable-bg: rgba(9,10,11,0.3);
+    --deprecated-store-bg: hsl(220, 8%, 13%);
+    --deprecated-quickswitcher-input-background: hsl(218, 5%, 37%);
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,90%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: hsl(240, 11%, 0%);
+    --deprecated-text-input-border-disabled: hsl(220, 8%, 3%);
+    --deprecated-text-input-prefix: hsl(210, 3%, 77%);
+}
+
+.theme-dark {
+    --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
+    --contrast: var(--saturation-factor,1);
+}
+
+.theme-dark .flowerStarContainer-3zDVtj {
+    color: #ffffff;
+}
+
+.theme-dark #bd-pub-button:hover {
+    background-color: var(--brand-experiment);
+}
+
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
+
+.role-2irmRk {
+    position: relative;
+    border-radius: 3px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: currentColor 3px solid;
+}
+
+.roleCircle-3xAZ1j {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    z-index: 0;
+    background-color: currentColor;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    left: 0;
+    right: 0;
+}
+
+.roleName-32vpEy {
+    z-index: 1;
+    margin: 0;
+}
+
+.addButton-pcyyf6.actionButton-VzECiy.role-2irmRk {
+    border: 0;
+}
