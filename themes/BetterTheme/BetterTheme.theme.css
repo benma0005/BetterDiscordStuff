@@ -1,0 +1,207 @@
+/**
+ * @name Better Theme
+ * @version 1.0.0
+ * @description A darker dark Theme with a better look
+ * @authorLink https://github.com/benma0005/
+ * @author 𝕓𝕖𝕟𝕞𝕒𝟘𝟝#3812
+ * @source https://github.com/benma0005/BetterDiscordStuff/tree/main/themes/BetterTheme
+ * @invite 4nUwZuFTSg
+*/
+
+.theme-dark {
+    --header-primary: #fff;
+    --header-secondary: #c9c9c9;
+    --text-normal: #ededed;
+    --text-muted: #a3a3a3;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%); /* */
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%); /* */
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%); /* */
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%); /* */
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%); /* */
+    --interactive-normal: #cad9e3;
+    --interactive-hover: #dcecf7;
+    --interactive-active: #ccdbe6;
+    --interactive-muted: #434a4a; 
+    --background-primary: #0b0d0d;
+    --background-secondary: #070808;
+    --background-secondary-alt: #030505;
+    --background-tertiary: #020303;
+    --background-accent: #434a4a;
+    --background-floating: #000000;
+    --background-mobile-primary: #0b0d0d;
+    --background-mobile-secondary: #070808;
+    --background-modifier-hover: rgba(67,74,74,0.16);
+    --background-modifier-active: rgba(67,74,74,0.24);
+    --background-modifier-selected: rgba(67,74,74,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1); /* */
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%); /* */
+    --info-help-text: #fff;
+    --status-warning-text: #000; /* */
+    --scrollbar-thin-thumb: #020303;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #020303;
+    --scrollbar-auto-track: hsl(180,calc(var(--saturation-factor, 1)*7%),3%);
+    --scrollbar-auto-scrollbar-color-thumb: #020303;
+    --scrollbar-auto-scrollbar-color-track: #070808;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15); /* */
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05); /* */
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16); /* */
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24); /* */
+    --logo-primary: #fff;
+    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*57.9%),77.6%); /* Check Boxes */
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --channels-default: #8e9297;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #1a1f1f; /**/
+    --activity-card-background: #020303;
+    --textbox-markdown-syntax: #8e9297;
+    --deprecated-card-bg: rgba(2,3,3,0.6);
+    --deprecated-card-editable-bg: rgba(2,3,3,0.3);
+    --deprecated-store-bg: #0b0d0d;
+    --deprecated-quickswitcher-input-background: #a3a3a3;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #020303;
+    --deprecated-text-input-prefix: #ededed;
+}
+
+.peopleColumn-29fq28 {
+    background-color: var(--background-primary);
+}
+
+.uploadModal-2ifh8j {
+    background-color: var(--background-primary) !important;
+}
+
+.footer-3mqk7D {
+    background-color: var(--background-secondary) !important;
+}
+
+.root-1gCeng {
+    background-color: var(--background-primary) !important;
+}
+
+.footer-2gL1pp {
+    background-color: var(--background-secondary) !important;
+}
+
+.progress-1IcQ3A {
+    background-color: var(--deprecated-quickswitcher-input-background) !important;
+}
+
+.bar-2Qqk5Z {
+    background-color: var(--background-accent) !important;
+}
+
+.userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-tertiary) !important;
+}
+
+
+.bottomDivider-1K9Gao {
+    background-color: var(--background-secondary) !important;
+}
+
+.paymentPane-3bwJ6A,
+.paginator-166-09 {
+    background-color: var(--background-secondary) !important;
+}
+
+
+.expandedInfo-3kfShd {
+    background-color: var(--background-primary) !important;
+}
+
+.payment-xT17Mq {
+    background-color: var(--background-secondary) !important;
+}
+
+.codeRedemptionRedirect-1wVR4b {
+    background-color: var(--background-secondary) !important;
+    border-color: var(--background-tertiary) !important;
+}
+
+.theme-dark .tierHeaderLocked-3S508x {
+    background-color: var(--background-tertiary) !important;
+    color: var(--header-secondary) !important;
+}
+
+.theme-dark .tierBody-3aUxuc {
+    background-color: var(--background-secondary) !important;
+    color: var(--header-secondary) !important;
+}
+
+.autocomplete-1vrmpx {
+    background-color: var(--background-secondary) !important;
+}
+
+.selected-1Tbx07 {
+    background-color: var(--background-primary) !important;
+}
+
+.roleColor-rz2vM0::after {
+    background-color: currentColor;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.2;
+    border-radius: 4px;
+}
+
+.member-3-YXUe {
+    margin-bottom: 2px;
+}
+
+.membersGroup-v9BXpm {
+    text-align: center;
+}
+
+.role-2irmRk {
+    position: relative;
+    border-radius: 3px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-left: currentColor 3px solid;
+}
+
+.roleCircle-3xAZ1j {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    z-index: 0;
+    background-color: currentColor;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    left: 0;
+    right: 0;
+}
+
+.roleName-32vpEy {
+    z-index: 1;
+    margin: 0;
+}
+
+.addButton-pcyyf6.actionButton-VzECiy.role-2irmRk {
+    border: 0;
+}
+
+.role-2irmRk .roleRemoveIcon-2-TeGW {
+    margin-left: 60%;
+}
