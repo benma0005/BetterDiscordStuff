@@ -1,6 +1,6 @@
 /**
  * @name Better Theme
- * @version 1.0.0
+ * @version 1.0.1
  * @description A darker dark Theme with a better look
  * @authorLink https://github.com/benma0005/
  * @author 𝕓𝕖𝕟𝕞𝕒𝟘𝟝#3812
@@ -146,6 +146,10 @@
 }
 
 .selected-1Tbx07 {
+    background-color: var(--background-primary) !important;
+}
+
+.pageWrapper-1PgVDX {
     background-color: var(--background-primary) !important;
 }
 
