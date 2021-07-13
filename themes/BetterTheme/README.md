@@ -2,13 +2,15 @@
 
 ![preview](https://raw.githubusercontent.com/benma0005/BetterDiscordStuff/main/themes/BetterTheme/preview/screen.PNG)
 
+![preview light mode](https://raw.githubusercontent.com/benma0005/BetterDiscordStuff/main/themes/BetterTheme/preview/screen_light.PNG)
+
 ## Changelog
 
-v.1.1.0: auto update added
+v.1.1.0: auto update added and added a light mode theme
 
 ## TODO
 
-- Add a good look to light mode
+- make the light mode better
 - add missing color
 
 ## Help
