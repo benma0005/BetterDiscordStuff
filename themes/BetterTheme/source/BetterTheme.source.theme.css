@@ -1,12 +1,13 @@
 /**
  * @name Better Theme
- * @version 1.0.1
+ * @version 1.1.0
  * @description A darker dark Theme with a better look
  * @authorLink https://github.com/benma0005/
  * @author 𝕓𝕖𝕟𝕞𝕒𝟘𝟝#3812
  * @source https://github.com/benma0005/BetterDiscordStuff/tree/main/themes/BetterTheme
  * @invite 4nUwZuFTSg
 */
+
 
 .theme-dark {
     --header-primary: #fff;
@@ -26,7 +27,7 @@
     --background-secondary: #070808;
     --background-secondary-alt: #030505;
     --background-tertiary: #020303;
-    --background-accent: #434a4a;
+    --background-accent: #343838;
     --background-floating: #000000;
     --background-mobile-primary: #0b0d0d;
     --background-mobile-secondary: #070808;
@@ -72,6 +73,72 @@
     --deprecated-text-input-border-hover: #040405;
     --deprecated-text-input-border-disabled: #020303;
     --deprecated-text-input-prefix: #ededed;
+}
+
+.theme-light {
+    --header-primary: #3b3b3b;
+    --header-secondary: #969696;
+    --text-normal: #787878;
+    --text-muted: #adadad;
+    --text-link: hsl(212,calc(var(--saturation-factor, 1)*100%),43.9%);
+    --text-link-low-saturation: hsl(212,calc(var(--saturation-factor, 1)*100%),43.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*47.3%),43.9%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --interactive-normal: #969696;
+    --interactive-hover: #787878;
+    --interactive-active: #3b3b3b;
+    --interactive-muted: #c9c9c9;
+    --background-primary: #fff;
+    --background-secondary: #f5f5f5;
+    --background-secondary-alt: #ededed;
+    --background-tertiary: #e3e3e3;
+    --background-accent: #adadad;
+    --background-floating: #fff;
+    --background-mobile-primary: #f8f9f9;
+    --background-mobile-secondary: #fff;
+    --background-modifier-hover: rgba(186,186,186,0.08);
+    --background-modifier-active: rgba(186,186,186,0.16);
+    --background-modifier-selected: rgba(186,186,186,0.24);
+    --background-modifier-accent: rgba(6,6,7,0.08);
+    --info-positive-text: #000;
+    --info-warning-text: #000;
+    --info-danger-text: #000;
+    --info-help-background: hsla(212,calc(var(--saturation-factor, 1)*100%),43.9%,0.1);
+    --info-help-foreground: hsl(212,calc(var(--saturation-factor, 1)*100%),43.9%);
+    --info-help-text: #000;
+    --status-warning-text: #fff;
+    --scrollbar-thin-thumb: rgba(79,84,92,0.3);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #ccc;
+    --scrollbar-auto-track: #f2f2f2;
+    --scrollbar-auto-scrollbar-color-thumb: #e3e5e8;
+    --scrollbar-auto-scrollbar-color-track: #f2f3f5;
+    --elevation-stroke: 0 0 0 1px rgba(6,6,7,0.08);
+    --elevation-low: 0 1px 0 rgba(6,6,7,0.1),0 1.5px 0 rgba(6,6,7,0.025),0 2px 0 rgba(6,6,7,0.025);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.08);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.16);
+    --logo-primary: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    --control-brand-foreground: hsl(227,calc(var(--saturation-factor, 1)*58.4%),65.1%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.2);
+    --background-message-hover: rgba(6,6,7,0.02);
+    --channels-default: #6a7480;
+    --guild-header-text-shadow: 0 1px 1px hsla(0,0%,100%,0.4);
+    --channeltextarea-background: #ebedef;
+    --activity-card-background: #fff;
+    --textbox-markdown-syntax: #6a7480;
+    --deprecated-card-bg: #f8f9f9;
+    --deprecated-card-editable-bg: rgba(246,246,247,0.6);
+    --deprecated-store-bg: #f8f9f9;
+    --deprecated-quickswitcher-input-background: #fff;
+    --deprecated-quickswitcher-input-placeholder: rgba(79,84,92,0.3);
+    --deprecated-text-input-bg: rgba(79,84,92,0.02);
+    --deprecated-text-input-border: rgba(79,84,92,0.3);
+    --deprecated-text-input-border-hover: #b9bbbe;
+    --deprecated-text-input-border-disabled: #dcddde;
+    --deprecated-text-input-prefix: #b9bbbe;
 }
 
 .peopleColumn-29fq28 {
@@ -153,6 +220,30 @@
     background-color: var(--background-primary) !important;
 }
 
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    background-color: var(--background-accent) !important; 
+}
+
+.searchFilter-2ESiM3 {
+    background-color: var(--background-primary) !important;
+}
+
+#app-mount .container-3ayLPN {
+    background-color: var(--background-primary);
+}
+
+#app-mount .option-96V44q::after {
+    background: var(--background-primary);
+}
+
+.theme-dark #app-mount .option-96V44q.selected-rZcOL- {
+    background: #080808;
+}
+
+.theme-dark #app-mount .option-96V44q.selected-rZcOL-::after {
+    background: #080808;
+}
+
 .roleColor-rz2vM0::after {
     background-color: currentColor;
     position: absolute;
@@ -208,4 +299,17 @@
 
 .role-2irmRk .roleRemoveIcon-2-TeGW {
     margin-left: 60%;
+}
+
+.container-3baos1 {
+    right: 0;
+    top: 0;
+    position: absolute;
+    z-index: 101;
+    width: 220px;
+}
+
+.container-1r6BKw.themed-ANHk51 {
+    padding-right: 238px;
+    z-index: 0;
 }
